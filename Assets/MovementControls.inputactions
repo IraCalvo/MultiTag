@@ -1,4 +1,5 @@
 {
+    "version": 1,
     "name": "MovementControls",
     "maps": [
         {
@@ -45,7 +46,16 @@
                     "name": "Dash",
                     "type": "Button",
                     "id": "044043a6-fb78-44ae-809b-70827c6381af",
-                    "expectedControlType": "Button",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Cancel",
+                    "type": "Button",
+                    "id": "62fd66aa-8ce6-4aca-b971-e763dc0f480a",
+                    "expectedControlType": "",
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
@@ -291,6 +301,17 @@
                     "processors": "",
                     "groups": "",
                     "action": "Jump",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "efbb4c30-30bb-41e8-b193-dc970ea77b5c",
+                    "path": "<Mouse>/rightButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";Keyboard&Mouse",
+                    "action": "Cancel",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
